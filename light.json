@@ -316,7 +316,7 @@
   "dark": {
     "bg": {
       "default": {
-        "value": "{grey.500}",
+        "value": "{grey.900}",
         "type": "color"
       },
       "paper": {
