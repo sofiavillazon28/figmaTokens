@@ -316,7 +316,7 @@
   "dark": {
     "bg": {
       "default": {
-        "value": "{grey.900}",
+        "value": "{grey.500}",
         "type": "color"
       },
       "paper": {
@@ -324,7 +324,7 @@
         "type": "color"
       },
       "neutral": {
-        "value": "{bg.default}",
+        "value": "rgba(145,158,171,0.12)",
         "type": "color"
       },
       "gradient": {
