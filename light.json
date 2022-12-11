@@ -260,6 +260,32 @@
           "type": "typography"
         }
       }
+    },
+    "spacing": {
+      "scale": {
+        "value": "8",
+        "type": "spacing"
+      },
+      "sm": {
+        "value": "{spacing.scale} * 1",
+        "type": "spacing"
+      },
+      "md": {
+        "value": "{spacing.scale}*2",
+        "type": "spacing"
+      },
+      "lg": {
+        "value": "{spacing.scale}*3",
+        "type": "spacing"
+      },
+      "xl": {
+        "value": "{spacing.scale}*4",
+        "type": "spacing"
+      },
+      "xxl": {
+        "value": "{spacing.scale}*5",
+        "type": "spacing"
+      }
     }
   },
   "light": {
@@ -316,7 +342,7 @@
   "dark": {
     "bg": {
       "default": {
-        "value": "{grey.900}",
+        "value": "{grey.500}",
         "type": "color"
       },
       "paper": {
